@@ -1,7 +1,7 @@
-Jenkins 
+Jenkins
 =======
 
-1. Uruchom jenkins-a:
+1. Uruchom jenkins-a jako root (sudo wcześniej)
 
    ::
 
@@ -12,7 +12,7 @@ Jenkins
 
    ::
 
-     cat jenkins/secrets/initialAdminPassword
+     sudo cat jenkins/secrets/initialAdminPassword
 
 3. Wybierz *Suggested plugins*.
 
